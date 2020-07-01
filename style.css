@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
+
+body{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    background-image: url('images/header-bg.png');
+    height: 560px;
+    background-repeat: no-repeat;
+}
+p{
+    color: #707070
+}
+.header-text{
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 12%;
+}
+.welcome{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.highlight{
+    font-size: 48px;
+    font-weight: bold;
+    color: #EC4E88;
+}
+.header-image{
+    width: 40%;
+    margin-top: 2%;
+}
+.header-button{
+    padding: 10px 30px;
+    background-image: linear-gradient( to right,#EC5093,#ED4B72);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+.header-button:hover{
+    transform: scale(1.1);
+}
+/*header-area-end*/
+
+.bio{
+    display: flex;
+    background-image: url('images/biography-bg.png');
+    height: 590px;
+    background-repeat: no-repeat;
+}
+.bio-text{
+    width: 40%;
+    margin-left: 14%;
+    margin-top: 14%;
+}
+.bio-image{
+    width: 40%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+.bio-button{
+    padding: 12px 30px;
+    background-image: linear-gradient( to right,#EC5093,#ED4B72);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+.bio-button:hover{
+    transform: scale(1.1);
+}
+
+/*bio-area-end*/
+
+.work{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+
+.title{
+    margin: 7% auto;
+    font-size: 25px;
+    text-align: center;
+}
+.items{
+    display: flex;
+    margin: 0 10%;
+}
+
+.item1{
+    transition: .5s; 
+}
+.item1:hover{
+    transform: scale(1.1);
+}
+
+.item2{
+    margin: 0 4%;
+    transition: .5s; 
+}
+.item2:hover{
+    transform: scale(1.1);
+}
+
+.item3{
+    transition: .5s; 
+}
+.item3:hover{
+    transform: scale(1.1);
+}
+/*work-area-end*/
+
+footer{
+    background-image: url('images/footer-bg.png');
+}
+.content-1{
+    text-align: center;
+}
+.content-1 h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.content-1 span{
+    font-size: 13px;
+    color: #7C7C7C;
+}
+
+.content-1 p{
+    margin-top: 40px;
+}
+
+.content-2{
+    text-align: center;
+    background-image: linear-gradient( to right,#EC5093,#ED4B72);
+    width: 44%;
+    margin: 80px auto 135px;
+    padding: 20px 0;
+    border-radius: 15px;
+    color: #FEF2F5;
+}
+.content-2 p{
+    color: #FEF2F5;
+}
+.end{
+    text-align: center;
+    margin-bottom: 50px;
+}
