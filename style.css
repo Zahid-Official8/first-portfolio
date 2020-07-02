@@ -129,6 +129,53 @@ p{
 }
 /*work-area-end*/
 
+.experiences{
+    background-image: url('images/biography-bg.png');
+    padding: 10px 0 200px;
+}
+.title-area{
+    margin: 8% auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-area{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    width: 38%;
+    height: 280px;
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, #EA2027);
+    border-image-slice: 1; 
+    text-align: center;
+    padding: 20px 10px;
+    transition: .5s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+#box-style{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #0652DD, cyan);
+    border-image-slice: 1; 
+}
+
+.box h2{
+    font-size: 30px;
+}
+
+.orange-highlight{
+    color: #FFA500;
+    font-size: 20px;
+}
+
 footer{
     background-image: url('images/footer-bg.png');
 }
